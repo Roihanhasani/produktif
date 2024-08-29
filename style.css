@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('upin/angga.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #2C0B0B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  margin: 0;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 2.1em;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.kontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.kotak {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 20px;
+  width: 60%; /* relative width */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.h2 {
+  font-size: 1.5em;
+  color: #FF010B;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.nilai {
+  font-size: 1.8em; /* adjusted font size */
+  color: #FFDD57;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .kontainer {
+    flex-direction: column;
+  }
+
+  .kotak {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  /* add more breakpoints as needed */
+}
